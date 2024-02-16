@@ -1,0 +1,80 @@
+{
+  "projects": [
+    {
+      "id": 5,
+      "title": "더원인더스트리",
+      "category": "web",
+      "date": "23.09.07 - 23.09.18",
+      "summary": "더원인더스트리 기업 소개 사이트 퍼블리싱",
+      "keyPoint": [
+        "SEO를 고려한 코드 작성으로 구글 검색 시 상위 2번째 노출",
+        "디자이너와 협업, 데스크탑 디자인을 기반으로 반응형 화면 직접 구성"
+      ],
+      "type": "외주",
+      "tools": ["HTML", "CSS", "JS", "Vite", "FileZilla"],
+      "contribute": "퍼블리싱 100%",
+      "thumbnail": "/assets/img/thumbnail_5.png"
+    },
+    {
+      "id": 4,
+      "title": "풍년마켓",
+      "category": "web",
+      "date": "2022.12 - 2023.01",
+      "summary": "농산물 직거래 플랫폼 프론트엔드 작업",
+      "keyPoint": [
+        "ir기법, aria-label 작성 등으로 접근성 점수 최대 100점까지 개선",
+        "API 명세에 맞춰 상품, 댓글 CRUD 구현"
+      ],
+      "type": "4인 팀 프로젝트",
+      "tools": ["React", "React-Hooks", "Styled-components", "Netlify"],
+      "contribute": "163 / 717 Commits",
+      "thumbnail": "/assets/img/thumbnail_4.png"
+    },
+    {
+      "id": 3,
+      "title": "미술활동보고서 작성안내",
+      "category": "design",
+      "date": "약 2주 소요",
+      "summary": "홍익대학교 미술활동보고서 작성 안내 PPT 디자인",
+      "keyPoint": [
+        "학교 상징색과 인접색의 명도, 채도 차이를 준 색상 배색",
+        "PPT 흐름을 한 눈에 알 수 있는 Progress Bar 등 제작"
+      ],
+      "type": "재직 중 작업",
+      "tools": ["Illustrator", "Photoshop"],
+      "contribute": "100%",
+      "thumbnail": "/assets/img/thumbnail_3.png"
+    },
+    {
+      "id": 2,
+      "title": "입학전형 주요사항",
+      "category": "design",
+      "date": "약 2주 소요",
+      "summary": "홍익대학교 온라인 입학전형 표지 디자인",
+      "keyPoint": [
+        "연도 숫자를 강조한 그래픽 디자인",
+        "학교 상징색과 인접색을 메인 컬러로 활용"
+      ],
+      "type": "재직 중 작업",
+      "tools": ["Illustrator", "InDesign"],
+      "contribute": "100%",
+      "thumbnail": "/assets/img/thumbnail_2.png"
+    },
+    {
+      "id": 1,
+      "title": "신입생 모집요강",
+      "category": "design",
+      "date": "약 2주 소요",
+      "summary": "홍익대학교 신입생 모집요강 표지 디자인",
+      "keyPoint": [
+        "학교 전경을 표현한 아이콘 제작",
+        "학생들이 접할 매체로 부드럽고 귀여운 이미지로 제작"
+      ],
+      "type": "재직 중 작업",
+      "tools": ["Illustrator", "InDesign"],
+      "contribute": "100%",
+      "thumbnail": "/assets/img/thumbnail_1.png"
+    }
+  ],
+  "detail": {}
+}
