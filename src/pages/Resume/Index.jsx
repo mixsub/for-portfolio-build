@@ -30,7 +30,7 @@ const Resume = () => {
           <TxtWrap>
             <SubTitle>
               <span>김미경</span>
-              <BlockTxt>웹 퍼블리셔, 프론트엔드 지원</BlockTxt>
+              <BlockTxt>웹 퍼블리셔 지원</BlockTxt>
             </SubTitle>
             <MainTxtBullet>생년월일 : 1994.02.11</MainTxtBullet>
             <MainTxtBullet>이메일 : migyeong0211@gmail.com</MainTxtBullet>
@@ -195,8 +195,8 @@ const Resume = () => {
               REST API를 이해하고 있으며 CRUD 작업 경험이 있습니다.
             </MainTxtBullet>
             <MainTxtBullet>
-              JavaScript 애니메이션에 관심이 있으며 Canvas API, Three.js 라이
-              브러리를 학습하고 있습니다.
+              JavaScript 애니메이션에 관심이 있으며 Canvas API, Three.js
+              라이브러리를 학습하고 있습니다.
             </MainTxtBullet>
           </TxtWrap>
         </FlexWrap>
