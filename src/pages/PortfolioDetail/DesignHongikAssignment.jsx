@@ -62,10 +62,6 @@ const DesignHongikAssignment = () => {
             detailTxt="실제 캠퍼스 건물 위치와 주변 환경을 동일하게 그래픽으로 구현하고 조합"
           />
           <ProjectContents detailImg={DetailImg3} detailTxt="최종 작업물" />
-          <ProjectContents
-            detailImg={DetailImg3}
-            detailTxt="최종 작업 인쇄물"
-          />
           <DetailContTitle>22학년도</DetailContTitle>
           <ProjectContents
             detailImg={DetailImg4}
@@ -76,10 +72,6 @@ const DesignHongikAssignment = () => {
             detailTxt="HONGIK 글자와 함께 재배치하여 캠퍼스의 모습을 구현"
           />
           <ProjectContents detailImg={DetailImg6} detailTxt="최종 작업물" />
-          <ProjectContents
-            detailImg={DetailImg5}
-            detailTxt="최종 작업 인쇄물"
-          />
         </DetailSection>
       </LayoutWrap>
     </>
