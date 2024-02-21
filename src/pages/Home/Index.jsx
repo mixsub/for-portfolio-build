@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { GlobalStyle } from "../../globalStyle/GlobalStyle";
 import {
   LayoutWrap,
@@ -15,6 +16,9 @@ import DocumentBg from "/assets/icon/document.png";
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>반갑습니다 | 김미경의 포트폴리오 사이트</title>
+      </Helmet>
       <GlobalStyle />
       <LayoutWrap>
         <HomeNav>

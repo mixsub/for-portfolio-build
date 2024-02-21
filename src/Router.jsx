@@ -5,8 +5,12 @@ import Portfolio from "./pages/Portfolio/Index";
 import DesignHongikAssignment from "./pages/PortfolioDetail/DesignHongikAssignment";
 import DesignHongikProcess from "./pages/PortfolioDetail/DesignHongikProcess";
 import DesignHongikReport from "./pages/PortfolioDetail/DesignHongikReport";
+import DesignHongikBanner from "./pages/PortfolioDetail/DesignHongikBanner";
 import WebGHMarket from "./pages/PortfolioDetail/WebGHMarket";
 import WebTheOne from "./pages/PortfolioDetail/WebTheOne";
+import WebSQL from "./pages/PortfolioDetail/WebSQL";
+import WebUI from "./pages/PortfolioDetail/WebUI";
+
 import Resume from "./pages/Resume/Index";
 
 const router = createBrowserRouter([
@@ -32,10 +36,22 @@ const router = createBrowserRouter([
       },
       {
         path: "portfolio/detail/4",
-        element: <WebGHMarket />,
+        element: <DesignHongikBanner />,
       },
       {
         path: "portfolio/detail/5",
+        element: <WebSQL />,
+      },
+      {
+        path: "portfolio/detail/6",
+        element: <WebGHMarket />,
+      },
+      {
+        path: "portfolio/detail/7",
+        element: <WebUI />,
+      },
+      {
+        path: "portfolio/detail/8",
         element: <WebTheOne />,
       },
       {

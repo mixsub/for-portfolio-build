@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { LgTitle, MidTitle, SmallTitle } from "../../globalStyle/CommonLayout";
+import LinkClip from "/assets/icon/link.png";
 
 export const PageTitle = styled.h2`
   ${LgTitle}
@@ -17,6 +18,16 @@ export const SectionWrap = styled.section`
   a {
     text-decoration: underline;
     text-underline-position: under;
+  }
+  a::after {
+    content: " ";
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0.4rem 0.4rem 0;
+    background-image: url(${LinkClip});
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   @media all and (max-width: ${(props) => props.theme.tinySize}) {
     margin-bottom: 9.2rem;

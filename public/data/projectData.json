@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": 5,
+      "id": 8,
       "title": "더원인더스트리",
       "category": "web",
       "date": "23.09.07 - 23.09.18",
@@ -16,7 +16,22 @@
       "thumbnail": "/assets/img/thumbnail_5.png"
     },
     {
-      "id": 4,
+      "id": 7,
+      "title": "UI 챌린지",
+      "category": "web",
+      "date": "2023.02.23 ~",
+      "summary": "Frontend Mentor 사이트의 시안을 활용하여 UI 제작을 연습",
+      "keyPoint": [
+        "실무와 같은 빠른 코드 작성을 목표로 진행",
+        "학습한 내용들은 README에 꾸준히 기록"
+      ],
+      "type": "개인 프로젝트",
+      "tools": ["HTML", "CSS", "JS"],
+      "contribute": "100%",
+      "thumbnail": "/assets/img/thumbnail_UI.png"
+    },
+    {
+      "id": 6,
       "title": "풍년마켓",
       "category": "web",
       "date": "2022.12 - 2023.01",
@@ -29,6 +44,36 @@
       "tools": ["React", "React-Hooks", "Styled-components", "Netlify"],
       "contribute": "163 / 717 Commits",
       "thumbnail": "/assets/img/thumbnail_4.png"
+    },
+    {
+      "id": 5,
+      "title": "SQooL",
+      "category": "web, design",
+      "date": "약 2주 소요",
+      "summary": "Web SQL 학습용 튜토리얼 사이트 SQool 오픈소스 제작 프로젝트 참여",
+      "keyPoint": [
+        "Figma로 CheetSheet 페이지 제작하여 디자인 기여",
+        "공통 컴포넌트 Header, SideBar, Footer 컨테이너를 유연하도록 구현"
+      ],
+      "type": "오픈소스 프로젝트",
+      "tools": ["HTML", "CSS", "Figma"],
+      "contribute": "상세 페이지 참고",
+      "thumbnail": "/assets/img/thumbnail_SQL.png"
+    },
+    {
+      "id": 4,
+      "title": "바이오헬스 혁신공유대학 FAQ",
+      "category": "design",
+      "date": "약 1주 소요",
+      "summary": "홍익대학교 혁신공유대학 사이트에 사용될 FAQ 배너 이미지 디자인",
+      "keyPoint": [
+        "학교 상징색과 인접색상을 포인트 컬러로 배치",
+        "파트를 구분할 수 있는 불릿형태의 아이콘 삽입"
+      ],
+      "type": "재직 중 작업",
+      "tools": ["Illustrator", "Photoshop"],
+      "contribute": "100%",
+      "thumbnail": "/assets/img/thumbnail_FAQ.png"
     },
     {
       "id": 3,

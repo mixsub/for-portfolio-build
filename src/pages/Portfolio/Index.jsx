@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import fetchData from "../../api/dataFetch";
+import { Helmet } from "react-helmet-async";
 import ProjectCard from "../../components/ProjectCard/Index";
 import {
   PageTitle,
@@ -29,8 +30,10 @@ const Portfolio = () => {
   }, []);
 
   const toggleHandler = (e) => {
-    const webArr = originData.filter((list) => list.category === "web");
-    const designArr = originData.filter((list) => list.category === "design");
+    const webArr = originData.filter((list) => list.category.includes("web"));
+    const designArr = originData.filter((list) =>
+      list.category.includes("design")
+    );
     const totalArr = originData;
     if (e.target.innerText === "전체") {
       setDataList([...totalArr]);
@@ -46,6 +49,9 @@ const Portfolio = () => {
 
   return (
     <>
+      <Helmet>
+        <title>포트폴리오 | 김미경의 포트폴리오 사이트</title>
+      </Helmet>
       <PageTitle>
         <BlockTxt>portfolio</BlockTxt>
         <BlockTxt>포트폴리오</BlockTxt>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Tag } from "../../globalStyle/CommonLayout";
 import {
   PageTitle,
@@ -17,6 +18,9 @@ import ResumeImg from "/assets/img/resume.png";
 const Resume = () => {
   return (
     <>
+      <Helmet>
+        <title>이력서 | 김미경의 포트폴리오 사이트</title>
+      </Helmet>
       <PageTitle>resume 이력서</PageTitle>
       <SectionWrap>
         <FlexWrap>
